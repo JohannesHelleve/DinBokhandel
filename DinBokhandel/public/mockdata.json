@@ -1,0 +1,99 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Adventure",
+        "author": "John Doe",
+        "genre": "Adventure",
+        "published_year": 2020,
+        "isbn": "978-3-16-148410-0",
+        "pages": 350,
+        "language": "English",
+        "publisher": "Fiction House",
+        "price": 19.99,
+        "available": true,
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "JaneSmith",
+            "comment": "Fantastic read!",
+            "rating": 5
+          },
+          {
+            "user": "BookLover99",
+            "comment": "Exciting and well-written.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Mystery of the Lost Island",
+        "author": "Alice Brown",
+        "genre": "Mystery",
+        "published_year": 2018,
+        "isbn": "978-1-23-456789-0",
+        "pages": 280,
+        "language": "English",
+        "publisher": "Mystery Press",
+        "price": 14.99,
+        "available": false,
+        "rating": 4.0,
+        "reviews": [
+          {
+            "user": "DetectiveReader",
+            "comment": "Kept me on the edge of my seat!",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "The Great Adventure",
+        "author": "John Doe",
+        "genre": "Adventure",
+        "published_year": 2020,
+        "isbn": "978-3-16-148410-0",
+        "pages": 350,
+        "language": "English",
+        "publisher": "Fiction House",
+        "price": 19.99,
+        "available": true,
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "JaneSmith",
+            "comment": "Fantastic read!",
+            "rating": 5
+          },
+          {
+            "user": "BookLover99",
+            "comment": "Exciting and well-written.",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Mystery of the Lost Island",
+        "author": "Alice Brown",
+        "genre": "Mystery",
+        "published_year": 2018,
+        "isbn": "978-1-23-456789-0",
+        "pages": 280,
+        "language": "English",
+        "publisher": "Mystery Press",
+        "price": 14.99,
+        "available": false,
+        "rating": 4.0,
+        "reviews": [
+          {
+            "user": "DetectiveReader",
+            "comment": "Kept me on the edge of my seat!",
+            "rating": 4
+          }
+        ]
+      }
+    ]
+  }
+  
