@@ -17,6 +17,7 @@ type Review = {
     publisher: string;       // Publisher of the book
     price: number;           // Price of the book
     available: boolean;      // Availability status of the book
+    image: string;           // URL of the book cover image
     rating: number;          // Overall rating of the book (average of all reviews)
     reviews: Review[];       // Array of reviews for the book
   }
