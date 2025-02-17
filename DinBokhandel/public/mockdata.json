@@ -1,0 +1,119 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Adventure",
+      "author": "John Doe",
+      "genre": "Adventure",
+      "published_year": 2020,
+      "isbn": "978-3-16-148410-0",
+      "pages": 350,
+      "language": "English",
+      "publisher": "Fiction House",
+      "price": 19.99,
+      "available": true,
+      "image": "http://localhost:5173/./book.png",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "user": "JaneSmith",
+          "comment": "Fantastic read!",
+          "rating": 5
+        },
+        {
+          "user": "BookLover99",
+          "comment": "Exciting and well-written.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mystery of the Lost Island",
+      "author": "Alice Brown",
+      "genre": "Mystery",
+      "published_year": 2018,
+      "isbn": "978-1-23-456789-0",
+      "pages": 280,
+      "language": "English",
+      "publisher": "Mystery Press",
+      "price": 14.99,
+      "available": false,
+      "image": "http://localhost:5173/./book.png",
+      "rating": 4.0,
+      "reviews": [
+        {
+          "user": "DetectiveReader",
+          "comment": "Kept me on the edge of my seat!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Secret of the Old Mansion",
+      "author": "John Doe",
+      "genre": "Mystery",
+      "published_year": 2019,
+      "isbn": "978-3-16-148410-0",
+      "pages": 320,
+      "language": "English",
+      "publisher": "Mystery Press",
+      "price": 16.99,
+      "available": true,
+      "image": "http://localhost:5173/./book.png",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "user": "MysteryFan",
+          "comment": "A great read for mystery lovers!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Lost Treasure",
+      "author": "Alice Brown",
+      "genre": "Adventure",
+      "published_year": 2020,
+      "isbn": "978-1-23-456789-0",
+      "pages": 300,
+      "language": "English",
+      "publisher": "Fiction House",
+      "price": 18.99,
+      "available": true,
+      "image": "http://localhost:5173/./book.png",
+      "rating": 4.3,
+      "reviews": [
+        {
+          "user": "AdventureLover",
+          "comment": "Exciting and adventurous!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Enchanted Forest",
+      "author": "Alice Brown",
+      "genre": "Fantasy",
+      "published_year": 2017,
+      "isbn": "978-3-16-148410-0",
+      "pages": 260,
+      "language": "English",
+      "publisher": "Fantasy Books",
+      "price": 12.99,
+      "available": true,
+      "image": "http://localhost:5173/./book.png",
+      "rating": 4.1,
+      "reviews": [
+        {
+          "user": "FantasyReader",
+          "comment": "Magical and enchanting!",
+          "rating": 4
+        }
+      ]
+    }
+  ]
+}
