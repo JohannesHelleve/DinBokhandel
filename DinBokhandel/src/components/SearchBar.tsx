@@ -39,8 +39,19 @@ export default function SearchBar() {
             <SearchOption {...option} />
         )} 
         slots={{ 
-          popper: (props) => <Popper {...props} placement="bottom-start" open={props.open} anchorEl={props.anchorEl} />
-        }} 
+          popper: (props) => {
+            const modifiers = [
+              {
+                name: 'flip',
+                options: {
+                  fallbackPlacements: ['bottom'],
+                },
+              },
+            ];
+            return <Popper {...props} open={props.open} popperOptions={{ modifiers }} />;
+          }
+        }}
+        
       />
     </div>
   );
